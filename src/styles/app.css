@@ -1,0 +1,209 @@
+
+h1 { 
+    font-family: 'Pacifico', cursive;
+    color: #DB3EB1;
+    text-decoration: underline;
+    text-decoration-color: #41B6E6;
+    font-style: italic;
+  }
+  
+  button.miami {
+    background-color:#41B6E6 !important;
+    border-color:#52a7c9 !important;
+    margin-top: 10px;
+  }
+  
+  .badge-danger {
+    color: #f85858;
+    font-size: 20px;
+    padding: 0px;
+  }
+  
+  .wrapper {
+    height:100vh;
+    display: grid;
+  }
+  .center-wrapper {
+    align-self: center;
+    justify-self: center;
+  }
+  
+  .players_wrapper {
+    height: 200px;
+    overflow-y: scroll;
+  }
+  
+  .Toastify{
+    position:fixed;
+  }
+  
+  .badge{
+    cursor: pointer;
+  }
+  
+  .action_button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: #dc3eb1;
+    color: white;
+    padding: 15px 40px;
+    font-size: 16px;
+    border: 2px solid #e184c7;
+    cursor: pointer;
+  }
+  
+  .action_button.btn_2 {
+    right: 200px;
+  }
+  
+  
+  .result_wrapper {
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  .result_wrapper h3 {
+    color: #41b6e6;
+  }
+  .result_wrapper div {
+    font-size: 40px;
+    color: #585858;
+  }
+
+
+
+
+
+
+  body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.yellotail {
+    font-family: 'Yellowtail', cursive;
+}
+
+nav { 
+    border-bottom: 3px solid #6c6c6c;
+}
+.navbar {
+    justify-content: center;
+}
+.nav {
+  border-bottom: 1px solid #e6e6e6;
+}
+.nav .nav-link {
+  color:#d63384;;
+  font-weight: bold;
+}
+.navbar-brand {
+  font-size: 40px;
+  color: rgb(73 73 73);
+}
+
+.navNew {
+  color: red;
+  display: flex;
+  gap: 12px;
+}
+
+
+/*////////////////////////////////////
+            MASONRY CSS
+/////////////////////////////////////*/
+
+.my-masonry-grid {
+  display: -webkit-box; /* Not needed if autoprefixing */
+  display: -ms-flexbox; /* Not needed if autoprefixing */
+  display: flex;
+  margin-left: -30px; /* gutter size offset */
+  width: auto;
+}
+.my-masonry-grid_column {
+  padding-left: 30px; /* gutter size */
+  background-clip: padding-box;
+}
+
+/* Style your items */
+.my-masonry-grid_column > div { /* change div to reference your elements you put in <Masonry> */
+  background: grey;
+  margin-bottom: 30px;
+}
+
+.my-masonry-grid .content { 
+  padding:15px;
+  background: white;
+  border: 1px solid #dbdbdb;
+}
+.my-masonry-grid .content .title { 
+  border-bottom: 1px solid #ececec;
+  font-size: 23px;
+  margin-bottom: 12px;
+  padding-bottom: 10px;
+  font-weight: 500;
+}
+
+.my-masonry-grid .content .excerpt {
+  font-weight: 100;
+}
+
+.my-masonry-grid .author {
+  padding: 5px 10px;
+  font-size: 12px;
+  background: #dcdcdc;
+  font-weight: 300;
+}
+
+@media (max-width: 800px) {
+  .my-masonry-grid {
+    margin-left: -15px; /* gutter size offset */
+  }
+  .my-masonry-grid_column {
+    padding-left: 15px; /* gutter size offset */
+  }
+  .my-masonry-grid_column > div {
+    margin-bottom: 15px; /* space between items */
+  }
+}
+
+/*////////////////////////////////////
+            NEWSLETTER
+/////////////////////////////////////*/
+
+.newsletter_container {
+  margin-top: 20px;
+  border-top: 5px solid #3c3c3c;
+  padding-top: 20px;
+}
+
+.newsletter_container h1 {
+    text-align: center;
+    font-family: 'Yellowtail', cursive;
+}
+
+.newsletter_container .form {
+    width: 500px;
+    margin: 0 auto;
+}
+
+/*////////////////////////////////////
+            ARTICLE
+/////////////////////////////////////*/
+
+.article_container h1 {
+font-size: 58px;
+font-weight: 300;
+}
+
+.article_container .image{
+  background-size: cover !important;
+  background-repeat: no-repeat !important;
+  width: 100%;
+  height: 500px;
+}
+.article_container .author {
+  margin-top: 10px;
+  font-style: italic;
+  font-weight: 300;
+}
